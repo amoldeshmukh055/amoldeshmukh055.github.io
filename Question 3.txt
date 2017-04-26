@@ -1,0 +1,4 @@
+
+Que: 
+
+select o.Id,CustomerID,o.OrderNumber,c.FirstName,c.Lastname,c.city,c.Phone FROM `order` o join `customer` c using (CustomerID);
